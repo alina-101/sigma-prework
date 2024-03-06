@@ -1,4 +1,4 @@
-from datetime import datetime, date, time, timezone
+from datetime import datetime, date, time
 today = date.today()
 date_str = input("Please input a date in the form dd-mm-yyyy: ")
 user_date = datetime.strptime(date_str, '%m-%d-%Y').date()
